@@ -27,7 +27,7 @@ switch(typ) {
 }
 document.getElementById("wynik").innerText = wynik
 const zdj = document.createElement("img")
-zdj.src= "/papier_z_nieba.gif"
+zdj.src= "papier_z_nieba.gif"
 document.body.prepend(zdj)
 
 setTimeout(usun,3000)
